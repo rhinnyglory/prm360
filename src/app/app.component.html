@@ -1,0 +1,7 @@
+<div id="wrapper" class="wrap">
+    {{viewCommon}}
+    <app-header *ngIf="viewCommon"></app-header>
+    <app-left-navigation *ngIf="viewCommon"></app-left-navigation>
+    <router-outlet></router-outlet>
+    <app-footer *ngIf="viewCommon"></app-footer>
+</div>
